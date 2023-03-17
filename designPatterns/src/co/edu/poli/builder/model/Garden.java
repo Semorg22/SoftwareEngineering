@@ -7,7 +7,7 @@ public class Garden {
 
     @Override
     public String toString() {
-        return "Garden [cant_estatuas=" + cant_estatuas + ", cant_arbustos=" + cant_arbustos + "]";
+        return "[ Cantidad de Estatuas = " + cant_estatuas + ", Cantidad de Arbustos = " + cant_arbustos + " ]";
     }
 
     public Garden(int cant_estatuas, int cant_arbustos) {
