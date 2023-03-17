@@ -18,7 +18,7 @@ public class Ceil {
 
     @Override
     public String toString() {
-        return "Ceil [tipo=" + tipo + "]";
+        return "[ Tipo = " + tipo + " ]";
     }
 
 }
