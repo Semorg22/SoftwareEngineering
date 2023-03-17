@@ -7,7 +7,7 @@ public class Floor {
 
     @Override
     public String toString() {
-        return "Floor [tipo=" + tipo + ", metros=" + metros + "]";
+        return "[ Tipo = " + tipo + ", Metros = " + metros + " m ]";
     }
 
     public Floor(String tipo, int metros) {
