@@ -16,8 +16,9 @@ public class Door {
 
     @Override
     public String toString() {
-        return "Door [alto=" + alto + ", ancho=" + ancho + ", madera=" + madera + ", cant_puertas=" + cant_puertas
-                + "]";
+        return "[ Alto = " + alto + "cm, Ancho = " + ancho + "cm, Madera = " + madera + ", Cantidad de Puertas = "
+                + cant_puertas
+                + " ]";
     }
 
     public int getCant_puertas() {
