@@ -6,16 +6,16 @@ public class Director {
 
 		House h;
 
-		if (typeHouse.equals("h1")) {
+		if (typeHouse.equals("Apartamento")) {
 
 			Ceil techo = new Ceil("concreto");
 			Floor piso = new Floor("laminado", 70);
-			Door puerta = new Door(2.0, 60, "pino", 6);
+			Door puerta = new Door(200, 80, "Pino", 6);
 			Window ventana = new Window(60, 120, 3);
 			Pool piscina = new Pool(200, 400, 300);
 
 			h = new House.Builder()
-					.withType("apto")
+					.withType("Apto")
 					.withCeil(techo)
 					.withFloor(piso)
 					.withDoor(puerta)
@@ -29,11 +29,11 @@ public class Director {
 		} else {
 
 			Ceil techo = new Ceil("concreto");
-			Window ventana = new Window(60, 120, 3);
+			Window ventana = new Window(600, 120, 3);
 			Garden jardin = new Garden(6, 20);
 
 			h = new House.Builder()
-					.withType("house")
+					.withType("Casa")
 					.withCeil(techo)
 					.withWindow(ventana)
 					.withGarden(jardin)
