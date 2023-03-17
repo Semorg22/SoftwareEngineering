@@ -14,7 +14,7 @@ public class Pool {
 
     @Override
     public String toString() {
-        return "Pool [ancho=" + ancho + ", largo=" + largo + ", profund=" + profund + "]";
+        return "[ Ancho = " + ancho + "cm, Largo = " + largo + "cm, Profundidad = " + profund + " cm ]";
     }
 
     public double getAncho() {
