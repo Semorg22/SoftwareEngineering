@@ -14,7 +14,7 @@ public class Window {
 
     @Override
     public String toString() {
-        return "Window [ancho=" + ancho + ", alto=" + alto + ", grosor=" + grosor + "]";
+        return "[ Ancho = " + ancho + "cm, Alto = " + alto + "cm, Grosor = " + grosor + " mm]";
     }
 
     public double getAncho() {
