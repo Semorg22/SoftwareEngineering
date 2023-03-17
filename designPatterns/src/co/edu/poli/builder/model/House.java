@@ -19,7 +19,7 @@ public final class House {
 		this.pool = builder.pool;
 		this.garden = builder.garden;
 	}
-	
+
 	public static class Builder {
 
 		private String type;
@@ -136,8 +136,11 @@ public final class House {
 
 	@Override
 	public String toString() {
-		return "House [type=" + type + ", ceil=" + ceil + ", floor=" + floor + ", door=" + door + ", window=" + window
-				+ ", pool=" + pool + ", garden=" + garden + "]";
+		return "\nVivienda \n[\nTipo --> " + type + ",\n Techo --> " + ceil + ",\n Piso --> " + floor
+				+ ",\n Puertas --> "
+				+ door
+				+ ",\n Ventanas --> " + window
+				+ ",\n Piscina --> " + pool + ",\n Jardin --> " + garden + "\n]\n";
 	}
 
 }
